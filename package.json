@@ -2,7 +2,7 @@
   "name": "react-google-places-autocomplete",
   "version": "3.3.2",
   "description": "Google places autocomplete input for ReactJS.",
-  "main": "build/index.js",
+  "main": "src/index.ts",
   "module": "build/index.es.js",
   "scripts": {
     "build": "rollup -c",
