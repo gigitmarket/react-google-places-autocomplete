@@ -1,5 +1,5 @@
 {
-  "name": "react-google-places-autocomplete",
+  "name": "@kambeo/react-google-places-autocomplete",
   "version": "3.3.3",
   "description": "Google places autocomplete input for ReactJS.",
   "main": "build/index.js",
@@ -59,5 +59,8 @@
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0",
     "react-dom": "^16.8.0 || ^17.0.0"
+  },
+  "directories": {
+    "doc": "docs"
   }
 }
