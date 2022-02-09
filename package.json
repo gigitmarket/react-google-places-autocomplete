@@ -16,14 +16,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tintef/react-google-places-autocomplete.git"
+    "url": "git+https://github.com/gigitmarket/react-google-places-autocomplete.git"
   },
-  "author": "Nicolás Tinte",
+  "contributors": [
+    {
+      "name": "Nicolás Tinte",
+      "url": "https://github.com/Tintef/react-google-places-autocomplete"
+    },
+    {
+      "name" : "Lyle Guay",
+      "url" : "https://kambeo.io"
+    },
+    {
+      "name" : "Steven Lambe",
+      "email" : "steven.lambe@kambeo.io",
+      "url" : "https://kambeo.io"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tintef/react-google-places-autocomplete/issues"
+    "url": "https://github.com/gigitmarket/react-google-places-autocomplete/issues"
   },
-  "homepage": "https://github.com/Tintef/react-google-places-autocomplete#readme",
+  "homepage": "https://github.com/gigitmarket/react-google-places-autocomplete#readme",
   "keywords": [
     "react",
     "google-places",
