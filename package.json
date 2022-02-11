@@ -1,6 +1,6 @@
 {
-  "name": "react-google-places-autocomplete",
-  "version": "3.3.2",
+  "name": "@kambeo/react-google-places-autocomplete",
+  "version": "3.3.4",
   "description": "Google places autocomplete input for ReactJS.",
   "main": "build/index.js",
   "module": "build/index.es.js",
@@ -16,14 +16,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tintef/react-google-places-autocomplete.git"
+    "url": "git+https://github.com/gigitmarket/react-google-places-autocomplete.git"
   },
-  "author": "Nicolás Tinte",
+  "contributors": [
+    {
+      "name": "Nicolás Tinte",
+      "url": "https://github.com/Tintef/react-google-places-autocomplete"
+    },
+    {
+      "name" : "Lyle Guay",
+      "url" : "https://kambeo.io"
+    },
+    {
+      "name" : "Steven Lambe",
+      "email" : "steven.lambe@kambeo.io",
+      "url" : "https://kambeo.io"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tintef/react-google-places-autocomplete/issues"
+    "url": "https://github.com/gigitmarket/react-google-places-autocomplete/issues"
   },
-  "homepage": "https://github.com/Tintef/react-google-places-autocomplete#readme",
+  "homepage": "https://github.com/gigitmarket/react-google-places-autocomplete#readme",
   "keywords": [
     "react",
     "google-places",
@@ -47,17 +61,20 @@
     "rollup-plugin-bundle-size": "^1.0.3",
     "rollup-plugin-peer-deps-external": "^2.2.3",
     "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.27.2"
+    "rollup-plugin-typescript2": "^0.27.2",
+    "typescript": "^3.9.7"
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.11.1",
     "@types/google.maps": "^3.44.1",
     "react-select": "^4.3.1",
-    "typescript": "^3.9.7",
     "use-debounce": "^3.4.3"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0",
     "react-dom": "^16.8.0 || ^17.0.0"
+  },
+  "directories": {
+    "doc": "docs"
   }
 }
